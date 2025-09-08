@@ -1,1 +1,1 @@
-echo $(ls | wc -l)
+echo $(ls -1 | wc -l)
