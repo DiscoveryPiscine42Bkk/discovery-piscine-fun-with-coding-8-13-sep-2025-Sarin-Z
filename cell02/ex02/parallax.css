@@ -1,0 +1,62 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Parallax sections */
+.parallax {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* First image */
+.parallax1 {
+    background-image: url('https://picsum.photos/id/1018/1920/1080');
+    /* Replace with your image */
+}
+
+/* Second image */
+.parallax2 {
+    background-image: url('https://picsum.photos/id/1015/1920/1080');
+    /* Replace with your image */
+}
+
+/* Centered text on parallax */
+.centered-text {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px 40px;
+    border-radius: 12px;
+}
+
+/* Black block section */
+.black-block {
+    background: #000;
+    color: #fff;
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.black-block h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.black-block p {
+    font-size: 1.2em;
+}
